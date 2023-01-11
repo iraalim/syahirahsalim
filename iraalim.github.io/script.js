@@ -41,7 +41,7 @@ function handleError(code, msg) {
 // Fetch weather info and timezone
 async function getWeather(city) {
   const response = await fetch(
-    `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=1f4fc88690b69e52a0e0d67235887cc0&units=metric`
+    `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=ea5ae3ba58b2b1c21eb2a2d3fcb0e679&units=metric`
   ).catch(handleError);
 
   const responseJson = await response.json();
@@ -57,7 +57,7 @@ async function getWeather(city) {
   async function getTime(data) {
     try {
       const response = await fetch(
-        `https://secure.geonames.org/timezoneJSON?lat=${data.coord.lat}&lng=${data.coord.lon}&username=syazai99`
+        `https://secure.geonames.org/timezoneJSON?lat=${data.coord.lat}&lng=${data.coord.lon}&username=IRASALIM`
       );
       const responseJson = await response.json();
 

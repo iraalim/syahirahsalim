@@ -131,7 +131,7 @@ input::placeholder {
 }
 
 /*  --- BUTTONS ---  */
-.btn {
+.btn1 {
   display: inline-block;
   background-color: var(--accent-color);
   color: #fff;
@@ -146,20 +146,20 @@ input::placeholder {
   cursor: pointer;
 }
 
-.btn:hover,
-.btn:focus {
+.btn1:hover,
+.btn1:focus {
   background-color: var(--primary-color);
   color: #fff;
 }
 
-.btn-outline {
+.btn1-outline {
   background-color: transparent;
   color: var(--accent-color);
   border: 2px solid var(--accent-color);
 }
 
-.btn-outline:hover,
-.btn-outline:focus {
+.btn1-outline:hover,
+.btn1-outline:focus {
   background-color: var(--accent-color);
   color: #fff;
 }
@@ -232,7 +232,7 @@ main.night-cloudy {
 }
 
 
-form1 {
+form {
   margin: 1rem 0;
   display: flex;
   justify-content: center;
